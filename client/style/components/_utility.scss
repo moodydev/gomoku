@@ -1,0 +1,85 @@
+.center-all {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+
+    @media (max-width: $breakpoint-big) {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 12em;
+        transform: none;
+        margin-bottom: 2em;
+        background: $color-neutral;
+    }
+}
+
+.transparent-dark-90 {
+    background: rgba($color-dark, .9);
+}
+
+.transparent-dark-75 {
+    background: rgba($color-dark, .75);
+}
+
+.transparent-dark-50 {
+    background: rgba($color-dark, .50);
+}
+.transparent-dark-25 {
+    background: rgba($color-dark, .25);
+}
+
+.transparent-dark-10 {
+    background: rgba($color-dark, .10);
+}
+
+.transparent-light-90 {
+    background: rgba($color-neutral, .9);
+}
+
+.transparent-light-75 {
+    background: rgba($color-neutral, .75);
+}
+
+.transparent-light-50 {
+    background: rgba($color-neutral, .50);
+}
+
+.transparent-light-25 {
+    background: rgba($color-neutral, .25);
+}
+
+.transparent-light-10 {
+    background: rgba($color-neutral, .10);
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.margin-right {
+    margin-right: 1em;
+}
+
+.margin-top-big {
+    margin-top: 2em;
+}
+
+.margin-right-big {
+    margin-right: 2em;
+}
+
+.margin-top-small {
+    margin-top: .5em;
+}
+
+.primary-color {
+    color: $color-primary;
+}
+
+.primary-bg {
+    background: $color-primary;
+}

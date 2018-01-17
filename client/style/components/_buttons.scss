@@ -1,0 +1,33 @@
+#logo {
+    font-size: 200%;
+    font-weight: $font-weight-light;
+    font-family: $font-family-title;
+    color: $color-neutral;
+
+    i {
+        padding-right: 0.25em;
+    }
+}
+
+.border-link {
+    margin: 0 auto;
+    display: inline-block;
+    border: 3px solid $color-neutral;
+    padding: 1em 2.5em;
+    border-radius: 2em;
+    cursor: pointer;
+
+    &.dark {
+        border: 3px solid $color-primary;
+        color: $color-primary;
+    }
+
+    &.small {
+        padding: .5em 1.25em;
+    }
+
+    &:hover {
+        background: $color-primary;
+        color: $color-neutral;
+    }
+}

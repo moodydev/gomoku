@@ -1,0 +1,61 @@
+input, select, textarea {
+    width: 100%;
+    font-family: $font-family;
+    background: transparent;
+    padding: 1em .5em;
+    margin-bottom: 1.3em;
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+
+    &:focus {
+        color: $color-primary;
+        border-bottom: 1px solid $color-primary;
+        outline:0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: $color-text-lightest;
+    }
+
+    ::-moz-placeholder {
+        color: $color-text-lightest;
+        opacity:  1;
+    }
+
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: .75em 3em;
+    background: $color-primary;
+    color: $color-neutral;
+
+    &:hover {
+        background: $color-secondary;
+    }
+}
+
+.input-icon {
+    position: relative;
+    margin-bottom: 1.5em;
+
+    i {
+        position: absolute;
+        top: .75em;
+        left: .5em;
+        font-size: 112.5%;
+    }
+
+    input {
+        padding-bottom: 1em;
+        padding-left: 3em;
+
+        &:focus {
+            ~ i {
+                color: $color-primary;
+                text-shadow: 0px 0px 17px rgba($color-neutral, .75)
+            }
+        }
+    }
+}

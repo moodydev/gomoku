@@ -1,0 +1,113 @@
+.material-icon {
+    font-family: 'Material Icons', serif;
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+
+b, strong {
+    font-weight: $font-weight-bold;
+}
+
+i, em {
+    font-style: italic;
+}
+
+p {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:$font-weight-light;
+    line-height: 1;
+
+    & + p {
+        color: $color-text-light;
+    }
+}
+
+h1 {
+    font-size: 200%;
+    line-height: 1.5;
+
+    &.intro {
+        color: $color-secondary;
+        font-family: $font-family-title;
+        span {
+            color: $color-neutral;
+        }
+    }
+
+    &.title {
+        background: $color-primary;
+        padding: 130px 0 50px;
+        color: $color-neutral;
+        text-align: center;
+    }
+
+    i.material-icon {
+        color: $color-primary-lighten;
+        padding-right: .3em;
+        margin-top: -5px;
+    }
+}
+
+h2 {
+    font-size: 150%;
+    line-height: 1.35;
+}
+
+h3 {
+    font-size: 125%;
+    line-height: 1.25;
+}
+
+h4, h5, h6 {
+    font-size: 110%;
+    font-weight: $font-weight-regular;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.center {
+    text-align: center;
+}
+
+code {
+    display: block;
+    font-family: monospace;
+    background: lighten($color-dark, 5%);
+    color: darken($color-neutral, 15%);
+    max-height: 15em;
+    overflow-y: auto;
+}
+
+blockquote {
+    border-left: 4px solid $color-primary;
+    padding: $padding-box;
+}
+
+a {
+    font-family: $font-family-secondary;
+    color: $color-neutral;
+    text-decoration: none;
+}

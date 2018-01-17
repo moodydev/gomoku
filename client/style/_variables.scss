@@ -1,0 +1,70 @@
+/**** IMPORT ****/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+
+/**** COLORS ****/
+
+$color-info: lighten(blue, 20%);
+$color-success: lighten(green, 10%);
+$color-warning: orange;
+$color-error: lighten(red, 9%);
+
+$color-primary: #112127;
+$color-primary-lighten: lighten($color-primary, 8%);
+$color-primary-darken: darken($color-primary, 8%);
+$color-secondary: #00C4A0;
+$color-dark: #081D2A;
+$color-neutral: #fff;
+
+$color-bg-body: #13242D;
+$color-bg-box: $color-neutral;
+$color-bg-aside: $color-dark;
+$color-bg-header: $color-neutral;
+
+$color-text-main: #444;
+$color-text-light: lighten($color-text-main, 14%);
+$color-text-lightest: lighten($color-text-main, 30%);
+$color-text-dark: darken($color-text-main, 10%);
+
+$color-border: 1px solid $color-bg-body;
+
+
+/**** FONT ****/
+
+$font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-family-secondary: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-family-title: 'Covered By Your Grace', sans-serif;
+$font-size: 1em;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$line-height: 1.5;
+
+/**** WIDTHS ****/
+
+$width-aside: 13.75em;
+
+
+/**** HEIGHT ****/
+
+$header-height-full: 5em;
+
+
+/**** OTHER MEASUREMENTS ****/
+
+$padding-neutral: 1.5em;
+$padding-box: 1em;
+
+
+/**** RESPONSIVE ****/
+
+$breakpoint-big: 1200px;
+$breakpoint-medium: 800px;
+
+/**** OTHER ****/
+
+$border-navigation: 1px solid rgba($color-neutral, 0.2);
